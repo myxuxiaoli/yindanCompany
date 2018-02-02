@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/addBusiness.css">
+    <title>编辑商会</title>
+</head>
+<script src="https://cdn.ravenjs.com/3.21.0/raven.min.js" crossorigin="anonymous"></script>
+<script>
+    Raven.config('https://f35430a6b7df4064b1aabcfe0bf9e6ae@sentry.io/265570').install();
+</script>
+
+<body>
+
+    <div class="main">
+        <div class="inputBox">
+            <label>商会名称</label>
+            <div class="info nameBox">
+                <a id="resources_name" href="#"></a>
+                <span class="resources_name">请选择</span>
+
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>商会logo</label>
+            <div class="info">
+                <div class="searchLogo">
+                    <a href="#" id="resources_logo_url"></a>
+                    <input type="file" onchange="commerceLogo(this)">
+                </div>
+                <div class="resources_logo_url">
+                    <img src="" alt="">
+                    <input type="file" onchange="commerceLogo(this)">
+                </div>
+
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>担任职位</label>
+            <div class="info rankBox">
+                <a href="./chooseYourRank.html"></a>
+                <span class="position_name">请选择</span>
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>商会简介</label>
+            <div class="info introBox">
+                <a id="resources_introduce" href="#"></a>
+                <span class="resources_introduce">请输入您的商会简介</span>
+            </div>
+        </div>
+    </div>
+    <div class="subBtnBox">
+        <button type="submit" class="submitBtn">保&nbsp;存</button>
+        <button type="button" id="TopmodalBtn">删&nbsp;除</button>
+    </div>
+
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/pubilc.js"></script>
+    <script src="../js/clip.js"></script>
+    <script src="../js/editCommerce.js"></script>
+</body>
+
+</html>

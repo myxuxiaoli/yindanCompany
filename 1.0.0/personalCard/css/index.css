@@ -1,0 +1,79 @@
+body {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+.container {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.container .photoImg div {
+  width: 100%;
+  height: 22.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.container .personalInfo {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  min-height: 5rem;
+}
+.container .personalInfo .person .userName {
+  float: left;
+  font-size: 1rem;
+  color: #1e1e1e;
+}
+.container .personalInfo .person .identity {
+  float: left;
+  width: 100%;
+  height: 1.5rem;
+  color: #666666;
+  font-size: 1rem;
+  display: flex;
+  line-height: 1.5rem;
+}
+.container .personalInfo .person .identity .city {
+  flex: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: 0.5rem;
+}
+.container .personalInfo .person .identity .business {
+  flex: 2;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.container .personalInfo .person .identity .position {
+  flex: 3;
+}
+.container .personalInfo .economicInfo {
+  font-size: 0.8rem;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.container .personalInfo .economicInfo .economics {
+  flex: 1;
+  text-align: center;
+  margin-top: 0.5rem;
+  border: 1px solid #3385ff;
+  color: #3385ff;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}
+.footer a {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  background-color: #3385ff;
+  color: #fff;
+  line-height: 3rem;
+  font-size: 1rem;
+  text-align: center;
+}

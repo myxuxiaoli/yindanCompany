@@ -1,0 +1,137 @@
+@import '../../css/config.less'; //引用基础样式
+.topdiv {
+    height: 12rem;
+    width: 100%;
+    margin: 1rem 0rem 0rem 0rem;
+    text-align: center;
+    img {
+        width: 11.5rem;
+        height: 7.5rem;
+    }
+    p {
+        font-size: 1rem;
+        color: #efc040;
+        margin-top: 1rem;
+    }
+}
+
+.main {
+    overflow: hidden;
+    width: 100%;
+    .gloryItems {
+        background-color: #fff;
+        color: #1e1e1e;
+        .gloryImg {
+            font-size: 1rem;
+            border-bottom: 1px solid #e6e6e6;
+            width: 100%;
+            height: 3rem;
+            line-height: 3rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            img {
+                flex: 0.35;
+                width: 1rem;
+                height: 1rem;
+                margin: 0.9rem 0.5rem 0rem 1rem;
+            }
+            .glorytitle {
+                flex: 5;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            span {
+                flex: 0.3;
+                width: 1rem;
+                height: 1rem;
+                display: block;
+                margin: 1rem 1rem 0rem 0rem;
+                background-image: url("../../img/edit@3x.png");
+                background-position: center;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}
+
+.addBox,
+.editBox {
+    position: relative;
+    textarea {
+        width: 81%;
+        min-height: 10rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        display: block;
+        background-color: #fff;
+        border: 1px solid #fff;
+        font-size: 0.9rem;
+        margin: 1rem;
+        padding: 1rem;
+        outline: none;
+        text-align: justify;
+        &:disabled {
+            background-color: #fff;
+        }
+    }
+    .wordsCount {
+        font-size: 0.75rem;
+        color: #999;
+        position: absolute;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+}
+
+.btnBox {
+    .submitBtn {
+        width: 91%;
+        height: 3rem;
+        display: block;
+        margin: 0rem 1rem 0rem 1rem;
+        background-color: #3385ff;
+        text-align: center;
+        line-height: 3rem;
+        color: #fff;
+        font-size: 1rem;
+        border: none;
+        margin-bottom: 1rem;
+    }
+    .deleteBtn {
+        width: 91%;
+        height: 3rem;
+        display: block;
+        margin: 0rem 1rem 0rem 1rem;
+        background-color: #fff;
+        text-align: center;
+        line-height: 3rem;
+        color: #999;
+        font-size: 1rem;
+        border: none;
+    }
+}
+
+.subBtnBox {
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    border-top: 1px solid #e6e6e6;
+    background-color: #fff;
+    padding: 1rem 0rem 1rem 0rem;
+    .addBtn {
+        width: 91%;
+        height: 3rem;
+        display: block;
+        margin: 0rem 1rem 0rem 1rem;
+        background-color: #3385ff;
+        text-align: center;
+        line-height: 3rem;
+        color: #fff;
+        font-size: 1rem;
+        border: none;
+    }
+}

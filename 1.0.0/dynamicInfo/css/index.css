@@ -1,0 +1,212 @@
+body {
+  background-color: #f1f2f4;
+}
+.topBanner {
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  font-size: 0.9rem;
+  background-color: #fff;
+}
+.topBanner span {
+  float: left;
+  margin-right: 0rem;
+}
+.topBanner .yunShangHui {
+  color: #1e1e1e;
+  margin-left: 1rem;
+}
+.topBanner .xian {
+  color: #ccc;
+}
+.topBanner .slogan {
+  color: #666666;
+  margin-right: 1rem;
+}
+.topBanner .downloadApp {
+  display: block;
+  width: 4.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  background-color: #3385ff;
+  border-radius: 1rem;
+  float: right;
+  margin-right: 1rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+.dynamic {
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.dynamic .dyTop .photoImgDiv {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 1rem 0.5rem 1rem 1rem;
+}
+.dynamic .dyTop .dynamicInfo {
+  float: left;
+  margin-top: 1rem;
+}
+.dynamic .dyTop .dynamicInfo h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #3385ff;
+}
+.dynamic .dyTop .dynamicInfo .company {
+  font-size: 0.8rem;
+  color: #666666;
+}
+.dynamic .dyTop .dynamicInfo .company .companyName {
+  float: left;
+  display: block;
+  width: 5rem;
+  height: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dynamic .dyTop .dynamicInfo .company .positionName {
+  float: left;
+}
+.dynamic .dyTop i {
+  font-size: 0.5rem;
+  color: #999999;
+  float: right;
+  margin: 1.5rem 0.5rem 0rem 0rem;
+}
+.dynamic .dyCenter {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0rem 1rem 0.5rem 1rem;
+  height: auto;
+}
+.dynamic .dyCenter p {
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  color: #1e1e1e;
+  font-size: 1rem;
+  width: 100%;
+  line-height: 1.5rem;
+}
+.dynamic .dyCenter .dyPhotos img {
+  width: 9rem;
+  height: 9rem;
+  margin: 0.5rem 0.5rem 0rem 0rem;
+}
+.dynamic .dyBottom {
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.dynamic .dyBottom span {
+  float: left;
+  color: #666666;
+  margin: 0rem 3.5rem 0rem 2rem;
+}
+.dynamic .dyBottom span:last-child {
+  margin-right: 0;
+}
+.dynamic .dyBottom span img {
+  width: 1rem;
+  height: 1rem;
+}
+.comment {
+  background-color: #fff;
+  width: 100%;
+}
+.comment .title {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: #959595;
+  font-size: 0.5rem;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+}
+.comment .commentsContent {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.comment .commentsContent .commentPorson {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+}
+.comment .commentsContent .commentPorson .personaImage {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+.comment .commentsContent .commentPorson .personinfo {
+  flex: 1;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo .info {
+  display: flex;
+  align-items: center;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo .info span {
+  font-size: 1rem;
+  color: #1e1e1e;
+  font-family: PingFang-SC-Regular;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo .info i {
+  width: 1rem;
+  height: 1rem;
+  background-image: url("../img/V@3x.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-left: 0.5rem;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo .like {
+  display: flex;
+  align-items: center;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo .like i {
+  width: 1rem;
+  height: 1rem;
+  background-image: url("../img/like.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-left: 0.5rem;
+}
+.comment .commentsContent .commentPorson .personinfo .userInfo .like span {
+  font-size: 0.5rem;
+  color: #666666;
+}
+.comment .commentsContent .commentPorson .personinfo .businessInfos {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.comment .commentsContent .commentPorson .personinfo .businessInfos .busName {
+  flex: 1;
+  font-size: 0.8rem;
+  color: #666666;
+  margin-top: 0.1rem;
+  height: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.comment .commentsContent .commentPorson .personinfo .businessInfos .busPosition {
+  flex: 1.7;
+  font-size: 0.8rem;
+  color: #1e1e1e;
+}
+.comment .commentsContent .commentPorson .personinfo .date {
+  font-size: 0.5rem;
+  color: #959595;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,51 @@
+@import './config.less';
+body {
+    background-color: #f1f2f4;
+}
+
+.title {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #999999;
+}
+
+.managers {
+    height: auto;
+    width: 100%;
+    .managerItem {
+        padding: 0rem 1rem 0rem 1rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        display: flex;
+        border-top: 1px solid #e6e6e6;
+        .managerInfo {
+            flex: 6;
+            img {
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 0.5rem;
+            }
+            span {
+                font-family: PingFang-SC-Medium;
+                font-size: 1rem;
+                color: #1e1e1e;
+                margin-left: 0.5rem;
+            }
+        }
+        .selectBox {
+            flex: 1;
+            text-align: right;
+            span {
+                width: 1rem;
+                height: 1rem;
+                display: block;
+                background-image: url('../images/selm@2x.png');
+                background-size: 100% 100%;
+                background-position: center center;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+}

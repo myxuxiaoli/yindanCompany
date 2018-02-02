@@ -1,0 +1,175 @@
+@import './config.less';
+.main {
+    margin-top: 0.5rem;
+    background-color: #fff;
+    .inputBox {
+        border-bottom: 1px solid #e6e6e6;
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+        display: flex;
+        &:first-child {
+            border-top: 0;
+        }
+        label {
+            color: #1e1e1e;
+            font-size: 1rem;
+            flex: 1;
+            margin-left: 1rem;
+        }
+        .info {
+            height: 3rem;
+            line-height: 3rem;
+            font-size: 1rem;
+            flex: 3;
+            text-align: right;
+            margin-right: 1rem;
+            position: relative;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            .resources_logo_url,
+            .logoPhoto {
+                img {
+                    position: absolute;
+                    top: 0.5rem;
+                    right: 1rem;
+                    width: 2rem;
+                    height: 2rem;
+                    margin-right: 0.5rem;
+                    border-radius: 50%;
+                }
+                input {
+                    position: absolute;
+                    top: 0.7rem;
+                    right: 1rem;
+                    width: 2rem;
+                    height: 4rem;
+                    margin-right: 0.5rem;
+                    border-radius: 50%;
+                    opacity: 0;
+                }
+            }
+            input {
+                width: auto;
+                float: right;
+                border: 0;
+                height: 3rem;
+                text-align: right;
+                &::placeholder {
+                    color: #666;
+                }
+            }
+            a {
+                display: block;
+                z-index: 9999;
+                height: 3rem;
+                width: 0.6rem;
+                float: right;
+                margin-left: 0.5rem;
+                background-image: url('../images/choose2@2x.png');
+                background-position: right center;
+                background-repeat: no-repeat;
+                background-size: 100% auto;
+            }
+            .searchLogo {
+                position: relative;
+                overflow: hidden;
+                input {
+                    position: absolute;
+                    top: 0.7rem;
+                    right: 0rem;
+                    height: 3rem;
+                    width: 0.6rem;
+                    margin-right: 0.3rem;
+                    opacity: 0;
+                }
+            }
+            #commerceLogo {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+            }
+            span {
+                color: #666;
+            }
+            .other_instructions,
+            .resources_introduce {
+                width: 13rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .positiones {
+                height: 1.5rem;
+                margin-top: 0.7rem;
+                width: auto;
+                margin-right: 0.5rem;
+                &:nth-last-child(2) {
+                    margin-right: 0rem;
+                }
+                text-align: center;
+                line-height: 1.5rem;
+                font-size: 0.9rem;
+            }
+        }
+        .businessBox {
+            height: auto;
+            display: 6;
+            display: flex;
+            line-height: 3rem;
+            font-size: 1rem;
+            margin-right: 1rem;
+            a {
+                flex: 0.35;
+            }
+            .busBox {
+                flex: 7;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                .businessBg {
+                    float: right;
+                }
+                .mainBusiness {
+                    height: 1.5rem;
+                    margin-top: 0.7rem;
+                    margin-right: 0.5rem;
+                    width: auto;
+                    float: right;
+                    text-align: center;
+                    line-height: 1.5rem;
+                    border: 1px solid #3385ff;
+                    font-size: 0.75rem;
+                    color: #3385ff;
+                    padding: 0 0.2rem 0 0.2rem;
+                    ;
+                }
+            }
+        }
+    }
+}
+
+.subBtnBox {
+    margin-top: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    .submitBtn,
+    #TopmodalBtn {
+        width: 100%;
+        height: 3rem;
+        background-color: #3385ff;
+        text-align: center;
+        line-height: 3rem;
+        color: #fff;
+        font-size: 1rem;
+        border: none;
+    }
+    #TopmodalBtn {
+        margin-top: 1.5rem;
+        background-color: #fff;
+        color: #666;
+    }
+}

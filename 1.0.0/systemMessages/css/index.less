@@ -1,0 +1,64 @@
+@import './config.less';
+body {
+    background-color: #f1f2f4;
+}
+
+.container {
+    height: auto;
+    overflow: hidden;
+    ul {
+        padding: 0.5rem 1rem 0rem 1rem;
+        li {
+            width: 90%;
+            padding: 1rem 1rem 1.5rem 1rem;
+            height: auto;
+            border: solid 1px #e6e6e6;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            background-color: #fff;
+            .massageTop {
+                display: flex;
+                margin-bottom: 1rem;
+                .leftDiv {
+                    flex: 7;
+                    line-height: 1rem;
+                    .title {
+                        font-size: 0.9rem;
+                        font-weight: 600;
+                        color: #1e1e1e;
+                    }
+                    .redTag {
+                        display: inline-block;
+                        width: 0.5rem;
+                        height: 0.5rem;
+                        border-radius: 50%;
+                        background-color: #ff2b2b;
+                        display: none;
+                    }
+                }
+                .rightDiv {
+                    flex: 3;
+                    text-align: right;
+                    line-height: 1rem;
+                    .massageDate {
+                        font-size: 0.6rem;
+                        color: #999999;
+                    }
+                }
+            }
+            .massageContent {
+                width: 100%;
+                height: auto;
+                .content {
+                    font-size: 0.8rem;
+                    font-weight: 500;
+                    color: #6e6e6e;
+                    line-height: 1.5rem;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

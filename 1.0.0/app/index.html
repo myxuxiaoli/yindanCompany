@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>云商荟</title>
+</head>
+<!-- <script src="https://cdn.ravenjs.com/3.21.0/raven.min.js" crossorigin="anonymous"></script>
+<script>
+    Raven.config('https://f35430a6b7df4064b1aabcfe0bf9e6ae@sentry.io/265570').install();
+</script> -->
+
+
+<body>
+    <div class="main">
+        <!-- 添加头像部分 -->
+        <div class="title">添加头像</div>
+        <div class="photoBox">
+            <div class="userImg">
+                <img class="photo" src="" alt="个人头像">
+                <input type="file" onchange="userImgFile(this)">
+            </div>
+            <div class="replace">
+                <span>点击更换</span>
+                <input type="file" onchange="userImgFile(this)">
+            </div>
+        </div>
+        <!-- 个人信息部分 -->
+        <div class="title">个人信息</div>
+        <div class="personal-information">
+            <p>真实姓名：
+                <span class="user_name"></span>
+                <a href="./components/personalInformation.html?state=1" class="edit">编辑
+                    <img src="./images/edit@3x.png" alt="">
+                </a>
+            </p>
+
+            <p>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
+                <span class="user_sex"></span>
+            </p>
+
+            <p>来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自：
+                <span class="hometown"></span>
+            </p>
+
+            <p>所在城市：
+                <span class="city"></span>
+            </p>
+
+            <p>毕&nbsp;&nbsp;业&nbsp;&nbsp;于：
+                <span class="graduate_from"></span>
+            </p>
+
+            <p>兴趣爱好：
+                <span class="hobby"></span>
+            </p>
+        </div>
+        <!-- 企业信息部分 -->
+        <div class="title">企业信息</div>
+        <div class="addBusinessInfo">
+            <a href="./components/addBusiness.html">+ 添加你的企业</a>
+        </div>
+        <div id="business-information">
+            <a href="./components/myBusiness.html" class="bianji">编辑
+                <img class="rightpic" src="./images/edit@3x.png" alt="">
+            </a>
+            <ul></ul>
+        </div>
+        <!-- 商会 / 协会信息部分 -->
+        <div class="title">商会 / 协会信息</div>
+        <div class="addCommerceInfo">
+            <a href="./components/addCommerce.html">+ 添加商会/协会，找同行</a>
+        </div>
+        <div class="chamberOfCommerce">
+            <a href="./components/myCommerce.html" class="edit">编辑
+                <img src="./images/edit@3x.png" alt="">
+            </a>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+    <script src="./js/rem.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/base64.js"></script>
+    <script src="./js/pubilc.js"></script>
+    <script src="./js/clip.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="SHORTCUT ICON" href="favicon.ico" />
+    <title>编辑个人信息</title>
+</head>
+<!-- <script src="https://cdn.ravenjs.com/3.21.0/raven.min.js" crossorigin="anonymous"></script>
+<script>
+    Raven.config('https://f35430a6b7df4064b1aabcfe0bf9e6ae@sentry.io/265570').install();
+</script> -->
+
+<body>
+
+    <div class="title">
+        <div class="titleName">添加头像</div>
+    </div>
+    <!-- 添加头像 -->
+    <div class="headerImages">
+        <div class="photoBox">
+            <div class="userImg">
+                <img class="photo" src="" alt="个人头像">
+                <input type="file" onchange="userImgFile(this)">
+            </div>
+            <div class="replace">
+                <span>点击更换</span>
+                <input type="file" onchange="userImgFile(this)">
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <div class="titleName">个人信息</div>
+        <div class="edit" id="editpersonInfo">
+            <a href="#">
+                <img src="./img/edit@3x.png" alt="">编辑</a>
+        </div>
+    </div>
+    <!-- 个人信息 -->
+    <div class="main">
+        <div class="personInfo">
+            <div class="items">
+                <label>真实姓名：</label>
+                <span class="itemText realName"></span>
+            </div>
+            <div class="items">
+                <label>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</label>
+                <span class="itemText userSex"></span>
+            </div>
+            <div class="items">
+                <label>擅长领域：</label>
+                <span class="itemText goodAts"></span>
+            </div>
+            <div class="items">
+                <label>常住城市：</label>
+                <span class="itemText atCity"></span>
+            </div>
+            <div class="items">
+                <label>来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自：</label>
+                <span class="itemText homeTown"></span>
+            </div>
+            <div class="items">
+                <label>毕业院校：</label>
+                <span class="itemText graduateFrom"></span>
+            </div>
+            <div class="items">
+                <label>兴趣爱好：</label>
+                <span class="itemText hobbies"></span>
+            </div>
+            <div class="items">
+                <label>自我介绍：</label>
+                <span class="itemText ownIntro"></span>
+            </div>
+            <div class="items">
+                <label>期待结识：</label>
+                <span class="itemText wantToKnow"></span>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <div class="titleName">身份信息</div>
+        <div class="edit" id="addIdentity">
+            <a href="#">
+                <img src="./img/add@3x.png" alt="">添加</a>
+        </div>
+    </div>
+    <div class="identityPos" id="identityAdd">
+        添加身份信息，结识更多好友
+    </div>
+    <!-- 身份信息 -->
+    <div class="titleItems">
+
+    </div>
+    <div class="title">
+        <div class="titleName">个人荣誉</div>
+        <div class="edit" id="editGlory">
+            <a href="#">
+                <img src="./img/edit@3x.png" alt="">编辑</a>
+        </div>
+    </div>
+    <div class="identityPos" id="gloriesAdd">
+        添加个人荣誉，提升影响力
+    </div>
+    <!-- 个人荣誉 -->
+    <div class="glories">
+
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/pubilc.js"></script>
+    <script src="./js/rem.js"></script>
+    <script src="./js/base64.js"></script>
+    <script src="./js/clip.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
