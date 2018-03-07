@@ -1,0 +1,255 @@
+@import './config.less'; //引用基础样式
+body {
+    background-color: #f1f2f4;
+}
+
+.over-flow {
+    overflow: auto;
+    zoom: 1;
+}
+
+.main {
+    background-color: #fff;
+    border-bottom: 1px solid#e6e6e6;
+    border-top: 1px solid#e6e6e6;
+    .chanceTitle {
+        padding: 1rem 1rem 0rem 1rem;
+        margin-bottom: 0.97rem;
+        .bigTitle {
+            font-size: 1.065rem;
+            color: #1e1e1e;
+            font-weight: 550;
+            text-align: justify;
+            margin-bottom: 0.9rem;
+        }
+        .littleTitle {
+            text-align: justify;
+            font-size: 0.875rem;
+            line-height: 1.125rem;
+            color: #666666;
+            margin-bottom: 0.6rem;
+        }
+        .titleBottom {
+            .seeing {
+                float: left;
+                margin-right: 1.47rem;
+                position: relative;
+                img {
+                    width: 0.875rem;
+                    height: 0.75rem;
+                    vertical-align: text-bottom;
+                }
+                .seeNums {
+                    font-size: 0.75rem;
+                    position: absolute;
+                    top: 0.1rem;
+                    left: 1rem;
+                    color: #999999;
+                }
+            }
+            .loveBox {
+                float: left;
+                text-align: center;
+                position: relative;
+                img {
+                    width: 0.875rem;
+                    height: 0.75rem;
+                    vertical-align: text-bottom;
+                }
+                .loveNums {
+                    font-size: 0.75rem;
+                    color: #999999;
+                    position: absolute;
+                    top: 0.1rem;
+                    left: 1rem;
+                }
+            }
+            .chanceDate {
+                text-align: right;
+                float: right;
+                font-size: 0.75rem;
+                color: #999999;
+            }
+        }
+    }
+    .topxian {
+        display: block;
+        width: 90.5%;
+        margin-left: 1rem;
+        height: 1px;
+        margin-bottom: 0.97rem;
+        background-color: #e6e6e6;
+    }
+    .chanceDetail {
+        .chanceInfo {
+            font-size: 1rem;
+            padding: 0rem 1rem 0rem 1rem;
+            text-align: justify;
+            line-height: 1.375rem;
+            color: #1e1e1e;
+        }
+        .chanceImgBox {
+            margin-top: 0.9rem;
+            padding-left: 0.75rem;
+            margin-bottom: 0.6rem;
+            .imgBox {
+                margin: 0.25rem;
+                width: 5.94rem;
+                height: 5.94rem;
+                float: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+        }
+        .botxian {
+            display: block;
+            width: 90.5%;
+            margin-left: 1rem;
+            height: 1px;
+            background-color: #e6e6e6;
+        }
+        .detailBottom {
+            height: auto;
+            font-size: 0.875rem;
+            color: #666666;
+            text-align: justify;
+            padding: 1rem;
+            .cityName,
+            .chanceNameCenter {
+                margin-right: 0.28rem;
+                position: relative;
+            }
+            .cityName {
+                margin-right: 0.56rem;
+            }
+            .chanceNameCenter {
+                padding: 0rem 0.28rem 0rem 0.28rem;
+                &::before {
+                    content: "";
+                    font-size: 2rem;
+                    width: 0.25rem;
+                    height: 0.25rem;
+                    display: block;
+                    border-radius: 50%;
+                    background-color: #999;
+                    margin-top: 1.32rem;
+                    position: absolute;
+                    top: -0.9rem;
+                    left: -0.4rem;
+                }
+                &::after {
+                    content: "";
+                    font-size: 2rem;
+                    width: 0.25rem;
+                    height: 0.25rem;
+                    display: block;
+                    border-radius: 50%;
+                    background-color: #999;
+                    margin-top: 1.32rem;
+                    position: absolute;
+                    top: -0.9rem;
+                    right: -0.4rem;
+                }
+            }
+            .chanceNameRight {
+                margin-left: 0.28rem;
+            }
+        }
+    }
+}
+
+.isseurs {
+    padding: 1rem;
+    margin-top: 0.625rem;
+    background-color: #fff;
+    height: 4.6rem;
+    border-bottom: 1px solid#e6e6e6;
+    border-top: 1px solid#e6e6e6;
+    margin-bottom: 5.625rem;
+    .issuerTittle {
+        font-size: 1rem;
+        line-height: 1.315rem;
+        color: #1e1e1e;
+    }
+    .issuersInfo {
+        .photoBox {
+            float: left;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin-top: 0.94rem;
+            margin-right: 0.5rem;
+        }
+        .issuerIdentity {
+            float: left;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0.94rem;
+            .name {
+                flex: 1;
+                margin-bottom: 0.1rem;
+                position: relative;
+                .issuerName {
+                    font-size: 1rem;
+                    color: #1e1e1e;
+                }
+                .commerce {
+                    width: auto;
+                    height: 1rem;
+                    margin-left: 0.2rem;
+                    line-height: 1rem;
+                    padding: 0rem 0.5rem 0rem 0.5rem;
+                    font-size: 0.6rem;
+                    border-radius: 0.7rem;
+                    color: #4d6597;
+                    border: solid 1px #4d6597;
+                    position: absolute;
+                    top: 0.2rem;
+                }
+            }
+            .identity {
+                position: relative;
+                .identityBox {
+                    flex: 1;
+                    font-size: 0.815rem;
+                    color: #666666;
+                }
+                .vvvv {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    margin-left: 0.2rem;
+                    display: none;
+                    position: absolute;
+                    top: 0.2rem;
+                    right: -1rem;
+                }
+            }
+        }
+    }
+}
+
+.downloadBox {
+    padding: 1rem;
+    height: 3rem;
+    width: 90.5%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid#e6e6e6;
+    a {
+        height: 3rem;
+        color: #fff;
+        display: block;
+        text-align: center;
+        line-height: 3rem;
+        background-color: #3385ff;
+        font-size: 1.065rem;
+    }
+}

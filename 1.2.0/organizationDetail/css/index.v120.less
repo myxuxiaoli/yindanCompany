@@ -1,0 +1,258 @@
+@import './config.less'; //引用基础样式
+body {
+    background-color: #f1f2f4;
+}
+
+.over-flow {
+    overflow: auto;
+    zoom: 1;
+}
+
+.topBlueBox {
+    box-shadow: 0rem 0.06rem 0rem 0rem #e6e6e6;
+    z-index: 0;
+    height: 10rem;
+    padding: 0rem 1rem 0rem 1rem;
+    background-image: url("../img/topbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.topOrganization {
+    padding: 0rem 0rem 1rem 0rem;
+    background-color: #fff;
+    height: auto;
+    z-index: 3;
+    width: 90.5%;
+    margin: -3.78rem 0rem 1rem 1rem;
+    box-shadow: 0rem 0.63rem 2.5rem 0rem rgba(0, 0, 0, 0.08);
+    border-radius: 0.625rem;
+    .photo {
+        width: 100%;
+        height: 2.3rem;
+        text-align: center;
+        position: relative;
+        margin-top: 1rem;
+        .photoBox {
+            position: absolute;
+            top: -2.19rem;
+            left: 50%;
+            margin-left: -2.19rem;
+            width: 4.375rem;
+            height: 4.375rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+    }
+    .topCenter {
+        width: 100%;
+        .identityName {
+            font-size: 1.125rem;
+            line-height: 1.135rem;
+            letter-spacing: 0rem;
+            font-weight: 550;
+            color: #1e1e1e;
+            text-align: center;
+            margin: 1rem 0rem 1rem 0rem;
+        }
+        .topBot {
+            width: 90%; // height: 3.3rem;
+            color: #1e1e1e;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            /** 对象作为伸缩盒子模型显示 **/
+            -webkit-box-orient: vertical;
+            /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+            -webkit-line-clamp: 2;
+            /** 显示的行数 **/
+            overflow: hidden;
+            /** 隐藏超出的内容 **/
+            .topBotInner {
+                font-size: 1rem;
+                text-align: justify;
+                span {
+                    margin: 0;
+                    padding: 0;
+                    line-height: 1.5rem;
+                    vertical-align: bottom;
+                }
+                .positionNums,
+                .ppleft {
+                    color: #1e1e1e;
+                }
+                .positions {
+                    color: #4d6597;
+                }
+            }
+        }
+        .littleInfo {
+            display: flex;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            color: #999999;
+            font-size: 0.875rem;
+            div {
+                flex: 1.2;
+            }
+            .chances {
+                text-align: center;
+            }
+            .position {
+                flex: 1.2;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                text-align: right;
+                .left {
+                    position: relative;
+                    img {
+                        width: 0.75rem;
+                        height: 0.85rem;
+                        position: absolute;
+                        top: 0rem;
+                        left: -1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.titleTips {
+    font-size: 1.065rem;
+    line-height: 1.375rem;
+    letter-spacing: 0rem;
+    color: #1e1e1e;
+}
+
+.membersPhotos {
+    padding: 1rem 1rem 1rem 1rem;
+    height: 5rem;
+    width: 90.5%;
+    margin-bottom: 0.625rem;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    .photosBox {
+        width: 100%;
+        height: 3.5rem;
+        position: relative;
+        line-height: 3.5rem;
+        .photosItem {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            margin: 1rem 0.31rem 0rem 0.31rem;
+            float: left;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+        .diandian {
+            font-size: 1rem;
+            position: absolute;
+            bottom: -1rem;
+            right: 3rem;
+            color: #666;
+        }
+    }
+}
+
+.connection {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 0.625rem;
+    .renTitle {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+    .businessTag {
+        margin-top: 0.8rem;
+        height: auto;
+        padding: 0rem 1rem 1rem 0.75rem;
+        span {
+            height: 1.5rem;
+            line-height: 1.5rem;
+            text-align: center;
+            width: auto;
+            border-radius: 0.1rem;
+            font-size: 0.875rem;
+            padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+            color: #3385ff;
+            background-color: #f4f5f7;
+            float: left;
+            margin: 0.25rem;
+            color: #999;
+        }
+    }
+}
+
+.introductions {
+    height: auto;
+    width: 90.5%;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    .introInfo {
+        height: auto;
+        font-size: 1rem;
+        text-align: justify;
+        line-height: 1.375rem;
+        color: #666666;
+        margin-top: 0.7rem;
+    }
+}
+
+.enter {
+    height: auto;
+    width: 90.5%;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1rem;
+    margin-bottom: 5.625rem;
+    .enterInfo {
+        height: auto;
+        font-size: 1rem;
+        text-align: justify;
+        line-height: 1.375rem;
+        color: #666666;
+        margin-top: 0.7rem;
+    }
+}
+
+.connectBox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    padding: 1rem;
+    width: 90.5%;
+    border-top: 1px solid #e6e6e6;
+    background-color: #fff;
+    div {
+        display: block;
+        height: 3rem;
+        line-height: 3rem;
+        background-color: #3385ff;
+        text-align: center;
+        color: #fff;
+        font-size: 1.065rem;
+    }
+}

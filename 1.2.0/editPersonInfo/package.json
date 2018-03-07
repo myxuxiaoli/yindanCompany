@@ -1,0 +1,16 @@
+{
+  "name": "editpersoninfo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server -f **/*.css,**/*.js,**/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "browser-sync": "^2.23.6"
+  },
+  "description": ""
+}

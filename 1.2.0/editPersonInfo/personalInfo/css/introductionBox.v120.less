@@ -1,0 +1,44 @@
+@import '../../css/config.less'; //引用基础样式
+.editBox {
+    position: relative;
+    textarea {
+        width: 81%;
+        min-height: 10rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        display: block;
+        background-color: #fff;
+        border: 1px solid #fff;
+        font-size: 0.9rem;
+        margin: 1rem;
+        padding: 1rem;
+        outline: none;
+        text-align: justify;
+        &:disabled {
+            background-color: #fff;
+        }
+    }
+    .wordsCount {
+        font-size: 0.75rem;
+        color: #999;
+        position: absolute;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+}
+
+.btnBox {
+    .submitBtn {
+        width: 91%;
+        height: 3rem;
+        display: block;
+        margin: 0rem 1rem 0rem 1rem;
+        background-color: #3385ff;
+        text-align: center;
+        line-height: 3rem;
+        color: #fff;
+        font-size: 1rem;
+        border: none;
+        margin-bottom: 1rem;
+    }
+}

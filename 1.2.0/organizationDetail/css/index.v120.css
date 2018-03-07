@@ -1,0 +1,634 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+  color: #222;
+  font-size: 12px;
+}
+body,
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+textarea {
+  resize: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+  text-align: inherit;
+}
+fieldset,
+img {
+  border: 0;
+}
+img {
+  vertical-align: middle;
+}
+iframe {
+  display: block;
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+del {
+  text-decoration: line-through;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 500;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+ins,
+a,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+i {
+  font-style: normal;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  font-family: "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+}
+/*input[type="checkbox"]{ background:#2460aa; color:#fff; -webkit-text-shadow:none; border-color:#2157db; margin-right:0.08rem; border-radius:2px; -webkit-box-shadow:none;}*/
+/*去除ios浏览器中input button的风格*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  outline: none;
+}
+/*移除html5 input="number"的小箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+body {
+  background-color: #f1f2f4;
+}
+.header {
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+.header a {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  float: left;
+  margin: 1rem 0rem 1rem 1rem;
+  background: url('../images/back.png');
+  background-size: 100% 100%;
+}
+.header button {
+  font-size: 1rem;
+  float: right;
+  color: #3385ff;
+  line-height: 3rem;
+  background-color: transparent;
+  border: 0;
+  margin-right: 1rem;
+}
+/*页面打开时的动画——正在加载*/
+.modal_con {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+}
+.BeingLoaded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: translateX(-50%) translateY(-50%);
+  width: 7rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  z-index: 101;
+}
+.BeingLoaded p {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #3498DB;
+  font-size: 0.8rem;
+}
+.sk-spinner-three-bounce.sk-spinner {
+  text-align: center;
+}
+.sk-spinner-three-bounce div {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #3498DB;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
+  animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.sk-spinner-three-bounce .sk-bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.sk-spinner-three-bounce .sk-bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-threeBounceDelay {
+  0%,
+  100%,
+  80% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes sk-threeBounceDelay {
+  0%,
+  100%,
+  80% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.mask {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  z-index: 10001;
+  border-radius: 0.5rem;
+  background-color: #FFF;
+  overflow: hidden;
+}
+.modal .content {
+  padding: 1.5rem;
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+.modal .but {
+  display: flex;
+  border-top: 1px solid #e6e6e6;
+}
+.modal .but button {
+  flex: 1;
+  border: 0;
+  background-color: #FFF;
+  color: #3385ff;
+  font-size: 1rem;
+  height: 3rem;
+}
+.modal .but button:first-child {
+  border-right: 1px solid #e6e6e6;
+}
+.modal .but button:active {
+  background-color: #c1c2c3;
+}
+#clipView {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.clipBox {
+  position: absolute;
+  top: 3rem;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  background: #000;
+  overflow: hidden;
+}
+#image-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+#cover-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: move;
+  outline: rgba(0, 0, 0, 0.5) solid 10000px;
+  border: 1px solid #FFF;
+  transform: translateX(-50%) translateY(-50%);
+}
+.narrow {
+  position: absolute;
+  top: 1.3rem;
+  right: 2rem;
+  z-index: 10;
+}
+.narrow span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  margin-left: 1rem;
+}
+.narrow span:first-child {
+  background-image: url(../images/fd@2x.png);
+}
+.narrow span:last-child {
+  background-image: url(../images/jx@2x.png);
+}
+.head {
+  font-size: 2.4rem;
+  text-align: center;
+  background-color: #FFF;
+  color: #333333;
+  width: 100%;
+  height: 6rem;
+  line-height: 6rem;
+  position: relative;
+}
+.head .goBack {
+  position: absolute;
+  left: 0;
+  width: 6rem;
+  font-size: 3rem;
+  color: #323136;
+}
+.head .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: #323136;
+  height: 6rem;
+  line-height: 6rem;
+}
+body {
+  background-color: #f1f2f4;
+}
+.over-flow {
+  overflow: auto;
+  zoom: 1;
+}
+.topBlueBox {
+  box-shadow: 0rem 0.06rem 0rem 0rem #e6e6e6;
+  z-index: 0;
+  height: 10rem;
+  padding: 0rem 1rem 0rem 1rem;
+  background-image: url("../img/topbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.topOrganization {
+  padding: 0rem 0rem 1rem 0rem;
+  background-color: #fff;
+  height: auto;
+  z-index: 3;
+  width: 90.5%;
+  margin: -3.78rem 0rem 1rem 1rem;
+  box-shadow: 0rem 0.63rem 2.5rem 0rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.625rem;
+}
+.topOrganization .photo {
+  width: 100%;
+  height: 2.3rem;
+  text-align: center;
+  position: relative;
+  margin-top: 1rem;
+}
+.topOrganization .photo .photoBox {
+  position: absolute;
+  top: -2.19rem;
+  left: 50%;
+  margin-left: -2.19rem;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.topOrganization .topCenter {
+  width: 100%;
+}
+.topOrganization .topCenter .identityName {
+  font-size: 1.125rem;
+  line-height: 1.135rem;
+  letter-spacing: 0rem;
+  font-weight: 550;
+  color: #1e1e1e;
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.topOrganization .topCenter .topBot {
+  width: 90%;
+  color: #1e1e1e;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.topOrganization .topCenter .topBot .topBotInner {
+  font-size: 1rem;
+  text-align: justify;
+}
+.topOrganization .topCenter .topBot .topBotInner span {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+  vertical-align: bottom;
+}
+.topOrganization .topCenter .topBot .topBotInner .positionNums,
+.topOrganization .topCenter .topBot .topBotInner .ppleft {
+  color: #1e1e1e;
+}
+.topOrganization .topCenter .topBot .topBotInner .positions {
+  color: #4d6597;
+}
+.topOrganization .topCenter .littleInfo {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #999999;
+  font-size: 0.875rem;
+}
+.topOrganization .topCenter .littleInfo div {
+  flex: 1.2;
+}
+.topOrganization .topCenter .littleInfo .chances {
+  text-align: center;
+}
+.topOrganization .topCenter .littleInfo .position {
+  flex: 1.2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: right;
+}
+.topOrganization .topCenter .littleInfo .position .left {
+  position: relative;
+}
+.topOrganization .topCenter .littleInfo .position .left img {
+  width: 0.75rem;
+  height: 0.85rem;
+  position: absolute;
+  top: 0rem;
+  left: -1rem;
+}
+.titleTips {
+  font-size: 1.065rem;
+  line-height: 1.375rem;
+  letter-spacing: 0rem;
+  color: #1e1e1e;
+}
+.membersPhotos {
+  padding: 1rem 1rem 1rem 1rem;
+  height: 5rem;
+  width: 90.5%;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.membersPhotos .photosBox {
+  width: 100%;
+  height: 3.5rem;
+  position: relative;
+  line-height: 3.5rem;
+}
+.membersPhotos .photosBox .photosItem {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 1rem 0.31rem 0rem 0.31rem;
+  float: left;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.membersPhotos .photosBox .photosItem:first-child {
+  margin-left: 0;
+}
+.membersPhotos .photosBox .diandian {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -1rem;
+  right: 3rem;
+  color: #666;
+}
+.connection {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 0.625rem;
+}
+.connection .renTitle {
+  padding: 1rem 1rem 0rem 1rem;
+}
+.connection .businessTag {
+  margin-top: 0.8rem;
+  height: auto;
+  padding: 0rem 1rem 1rem 0.75rem;
+}
+.connection .businessTag span {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  width: auto;
+  border-radius: 0.1rem;
+  font-size: 0.875rem;
+  padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+  color: #3385ff;
+  background-color: #f4f5f7;
+  float: left;
+  margin: 0.25rem;
+  color: #999;
+}
+.introductions {
+  height: auto;
+  width: 90.5%;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 0.625rem;
+}
+.introductions .introInfo {
+  height: auto;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.375rem;
+  color: #666666;
+  margin-top: 0.7rem;
+}
+.enter {
+  height: auto;
+  width: 90.5%;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 5.625rem;
+}
+.enter .enterInfo {
+  height: auto;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.375rem;
+  color: #666666;
+  margin-top: 0.7rem;
+}
+.connectBox {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  padding: 1rem;
+  width: 90.5%;
+  border-top: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+.connectBox div {
+  display: block;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #3385ff;
+  text-align: center;
+  color: #fff;
+  font-size: 1.065rem;
+}

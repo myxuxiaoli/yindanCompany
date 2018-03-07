@@ -1,0 +1,104 @@
+@import './config.less'; //引用基础样式
+body {
+    background-color: #f1f2f4;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.over-flow {
+    overflow: auto;
+    zoom: 1;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 0.625rem;
+    background-color: #fff;
+    box-shadow: 0rem 0.315rem 0.75rem 0rem rgba(0, 0, 0, 0.06);
+    border-radius: 1.25rem;
+    height: auto;
+    padding-bottom: 1rem;
+    .photoBox {
+        height: 20rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .personInfo {
+        .person {
+            padding-left: 1rem;
+            margin-top: 1rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+            .personName {
+                font-size: 1.065rem;
+                line-height: 1.315rem;
+                font-weight: 550;
+                color: #1e1e1e;
+                margin-right: 0.5rem;
+            }
+            .commerce {
+                width: auto;
+                height: 1.065rem;
+                padding-left: 0.3rem;
+                padding-right: 0.3rem;
+                padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+                position: absolute;
+                top: 0.1rem;
+                font-size: 0.75rem;
+                border-radius: 0.7rem;
+                color: #4d6597;
+                border: solid 0.05rem #4d6597;
+            }
+        }
+        .business {
+            padding-left: 1rem;
+            font-size: 1rem;
+            line-height: 1.315rem;
+            color: #666666;
+            position: relative;
+            margin-bottom: 0.5rem;
+            .vvv {
+                width: 0.94rem;
+                height: 0.94rem;
+                position: absolute;
+                margin-left: 0.2rem;
+                top: 0.1rem;
+                display: none;
+            }
+        }
+        .goodAtTags {
+            width: 90.5%;
+            height: auto;
+            span {
+                width: auto;
+                height: 1.565rem;
+                line-height: 1.565rem;
+                border-radius: 0.125rem;
+                border: solid 1px #3385ff;
+                padding-left: 0.2rem;
+                padding-right: 0.2rem;
+                color: #3385ff;
+                font-size: 0.875rem;
+                float: left;
+                margin: 0.25rem 0.305rem 0.25rem 0.305rem;
+            }
+        }
+    }
+}
+
+.downLoad {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #fff;
+    font-size: 1.065rem;
+    text-align: center;
+    margin-top: 1.9rem;
+    background-color: #3385ff;
+}

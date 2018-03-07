@@ -1,0 +1,17 @@
+{
+  "name": "chancedetails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "browser-sync": "^2.23.6"
+  },
+  "scripts": {
+    "start": "browser-sync start --server -f **/*.css,**/*.js,**/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,1379 @@
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+.fp-tableCel {
+  height: 100% !important;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 1200px) {
+  .section .contentTitle {
+    width: 760px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -380px;
+    text-align: center;
+  }
+  .section .contentTitle h3 {
+    font-size: 40px;
+    color: #2c4871;
+    margin-bottom: 25px;
+  }
+  .section .contentTitle p {
+    font-size: 24px;
+    color: #999999;
+  }
+  .item-1 {
+    background-image: url('../img/01bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-1 .page01Logo {
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+  }
+  .item-1 .page01Logo .logoImg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    flex: 2.5;
+    background-image: url('../img/logo2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Logo .logoTitle {
+    flex: 5;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  .item-1 .page01Logo .logoTitle p:first-child {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .item-1 .page01Logo .logoTitle p:last-child {
+    font-size: 14px;
+  }
+  .item-1 .page01Content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .item-1 .page01Content .phoneImg {
+    float: left;
+    margin-top: 160px;
+  }
+  .item-1 .page01Content .phoneImg img {
+    z-index: 99;
+    width: 348px;
+    height: 694px;
+  }
+  .item-1 .page01Content .rightInfo {
+    float: left;
+    margin: 216px 0px 0px 87px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner {
+    height: 100px;
+    margin-bottom: 80px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p {
+    color: #ffffff;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:first-child {
+    font-size: 52px;
+    font-weight: 550;
+    margin-bottom: 20px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:last-child {
+    font-size: 24px;
+  }
+  .item-1 .page01Content .rightImg {
+    margin-left: 240px;
+    float: left;
+    text-align: center;
+  }
+  .item-1 .page01Content .rightImg .iosImg {
+    width: 220px;
+    height: 220px;
+    z-index: 4;
+    margin-bottom: 22px;
+    background-image: url('../img/erweima.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Content .rightImg p {
+    font-size: 20px;
+    color: #fff;
+  }
+  .item-2 {
+    background-color: #ffffff;
+  }
+  .item-2 .centerContent {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-2 .centerContent .bottomInfo {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 38.2%;
+  }
+  .item-2 .centerContent .bottomInfo .items {
+    flex: 1;
+    text-align: center;
+    z-index: 4;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 62px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg h4 {
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 17px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg p {
+    font-size: 22px;
+    color: #999999;
+  }
+  .item-2 .centerContent .bottomInfo.current .item1 {
+    animation: 1s slideInUp ease;
+    -webkit-animation: 1s slideInUp ease;
+    -o-animation: 1s slideInUp ease;
+    -moz-animation: 1s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item2 {
+    animation: 2s slideInUp ease;
+    -webkit-animation: 2s slideInUp ease;
+    -o-animation: 2s slideInUp ease;
+    -moz-animation: 2s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item3 {
+    animation: 3s slideInUp ease;
+    -webkit-animation: 3s slideInUp ease;
+    -o-animation: 3s slideInUp ease;
+    -moz-animation: 3s slideInUp ease;
+  }
+  .item-3 {
+    background-image: url('../img/03bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-3 .contentTitle h3 {
+    color: #fff;
+  }
+  .item-3 .contentTitle p {
+    color: #fff;
+  }
+  .item-3 .myContent {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-3 .myContent .bottomImgs {
+    width: 870px;
+    height: 58%;
+    z-index: 4;
+    position: absolute;
+    top: 27.7%;
+    left: 50%;
+    margin-left: -435px;
+  }
+  .item-3 .myContent .bottomImgs img {
+    position: absolute;
+  }
+  .item-3 .myContent .bottomImgs .phone02 {
+    width: 287px;
+    height: 511px;
+    top: 22px;
+    left: 42px;
+    z-index: 1;
+  }
+  .item-3 .myContent .bottomImgs .phone03 {
+    width: 312px;
+    height: 555px;
+    position: absolute;
+    top: 0px;
+    left: 285px;
+    z-index: 2;
+  }
+  .item-3 .myContent .bottomImgs .phone04 {
+    width: 288px;
+    height: 514px;
+    position: absolute;
+    top: 22px;
+    right: 29px;
+    z-index: 1;
+  }
+  .item-4 {
+    background-color: #fff;
+  }
+  .item-4 .content04 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-4 .content04 .imgs04 {
+    z-index: 4;
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    margin-left: -302.5px;
+  }
+  .item-4 .content04 .imgs04 img {
+    width: 605px;
+    height: 519px;
+  }
+  .item-5 {
+    background-color: #f8f8f8;
+  }
+  .item-5 .contentTitle {
+    margin-bottom: 34px;
+  }
+  .item-5 .aboutBox {
+    width: 100%;
+    height: 73%;
+    background-image: url('../img/05bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .item-5 .aboutBox .aboutUs {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo {
+    position: absolute;
+    top: 23%;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo {
+    float: left;
+    margin-right: 63px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo img {
+    z-index: 4;
+    width: 395px;
+    height: 407px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo {
+    width: 574px;
+    height: 150px;
+    margin-top: 65px;
+    font-size: 24px;
+    float: left;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo .blackWord {
+    color: #666;
+  }
+  .item-5 .bottomStatement {
+    width: 100%;
+    height: 27%;
+    background-color: #282828;
+    text-align: center;
+    z-index: 4;
+    position: relative;
+  }
+  .item-5 .bottomStatement .stateWords {
+    width: 540px;
+    height: 100%;
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    margin-left: -270px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass {
+    margin-top: 18px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass span:first-child {
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section .contentTitle {
+    width: 760px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -380px;
+    text-align: center;
+  }
+  .section .contentTitle h3 {
+    font-size: 40px;
+    color: #2c4871;
+    margin-bottom: 25px;
+  }
+  .section .contentTitle p {
+    font-size: 24px;
+    color: #999999;
+  }
+  .item-1 {
+    background-image: url('../img/01bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-1 .page01Logo {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 160px;
+    height: 50px;
+    display: flex;
+  }
+  .item-1 .page01Logo .logoImg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    flex: 2.5;
+    background-image: url('../img/logo2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Logo .logoTitle {
+    flex: 5;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  .item-1 .page01Logo .logoTitle p:first-child {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .item-1 .page01Logo .logoTitle p:last-child {
+    font-size: 14px;
+  }
+  .item-1 .page01Content {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .item-1 .page01Content .phoneImg {
+    float: left;
+    margin-top: 38%;
+  }
+  .item-1 .page01Content .phoneImg img {
+    z-index: 99;
+    width: 232px;
+    height: 462px;
+  }
+  .item-1 .page01Content .rightInfo {
+    float: left;
+    margin: 38% 0px 0px 58px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner {
+    height: 66.7px;
+    margin-bottom: 53.33px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p {
+    color: #ffffff;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:first-child {
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 13px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:last-child {
+    font-size: 16px;
+  }
+  .item-1 .page01Content .rightImg {
+    margin-left: 160px;
+    float: left;
+    text-align: center;
+  }
+  .item-1 .page01Content .rightImg .iosImg {
+    width: 146.7px;
+    height: 146.7px;
+    z-index: 4;
+    margin-bottom: 15px;
+    background-image: url('../img/erweima.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Content .rightImg p {
+    font-size: 13px;
+    color: #fff;
+  }
+  .item-2 {
+    background-color: #ffffff;
+  }
+  .item-2 .centerContent {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-2 .centerContent .bottomInfo {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 38.2%;
+  }
+  .item-2 .centerContent .bottomInfo .items {
+    flex: 1;
+    text-align: center;
+    z-index: 4;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 42px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg h4 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 11px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg p {
+    font-size: 15px;
+    color: #999999;
+  }
+  .item-2 .centerContent .bottomInfo.current .item1 {
+    animation: 1s slideInUp ease;
+    -webkit-animation: 1s slideInUp ease;
+    -o-animation: 1s slideInUp ease;
+    -moz-animation: 1s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item2 {
+    animation: 2s slideInUp ease;
+    -webkit-animation: 2s slideInUp ease;
+    -o-animation: 2s slideInUp ease;
+    -moz-animation: 2s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item3 {
+    animation: 3s slideInUp ease;
+    -webkit-animation: 3s slideInUp ease;
+    -o-animation: 3s slideInUp ease;
+    -moz-animation: 3s slideInUp ease;
+  }
+  .item-3 {
+    background-image: url('../img/03bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-3 .contentTitle h3 {
+    color: #fff;
+  }
+  .item-3 .contentTitle p {
+    color: #fff;
+  }
+  .item-3 .myContent {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-3 .myContent .bottomImgs {
+    width: 580px;
+    height: 58%;
+    z-index: 4;
+    position: absolute;
+    top: 35.7%;
+    left: 50%;
+    margin-left: -290px;
+  }
+  .item-3 .myContent .bottomImgs img {
+    position: absolute;
+  }
+  .item-3 .myContent .bottomImgs .phone02 {
+    width: 191px;
+    height: 341px;
+    top: 15px;
+    left: 30px;
+    z-index: 1;
+  }
+  .item-3 .myContent .bottomImgs .phone03 {
+    width: 208px;
+    height: 370px;
+    position: absolute;
+    top: 0px;
+    left: 191px;
+    z-index: 2;
+  }
+  .item-3 .myContent .bottomImgs .phone04 {
+    width: 192px;
+    height: 342px;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+    z-index: 1;
+  }
+  .item-4 {
+    background-color: #fff;
+  }
+  .item-4 .content04 {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-4 .content04 .imgs04 {
+    z-index: 4;
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    margin-left: -201.5px;
+  }
+  .item-4 .content04 .imgs04 img {
+    width: 403px;
+    height: 346px;
+  }
+  .item-5 {
+    background-color: #f8f8f8;
+  }
+  .item-5 .contentTitle {
+    margin-bottom: 34px;
+  }
+  .item-5 .aboutBox {
+    width: 100%;
+    height: 73%;
+    background-image: url('../img/05bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .item-5 .aboutBox .aboutUs {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo {
+    position: absolute;
+    top: 30%;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo {
+    float: left;
+    margin-right: 42px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo img {
+    z-index: 4;
+    width: 284px;
+    height: 293px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo {
+    width: 400px;
+    height: 150px;
+    margin-top: 35px;
+    font-size: 22px;
+    float: left;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo .blackWord {
+    color: #666;
+  }
+  .item-5 .bottomStatement {
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    bottom: 0;
+    background-color: #282828;
+    text-align: center;
+    z-index: 4;
+  }
+  .item-5 .bottomStatement .stateWords {
+    width: 451px;
+    height: 100%;
+    position: absolute;
+    top: 76.66px;
+    left: 50%;
+    margin-left: -180px;
+    color: #fff;
+    font-size: 9.33px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass {
+    margin-top: 12px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass span:first-child {
+    margin-right: 27px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  #fp-nav {
+    display: none;
+  }
+  .section .contentTitle {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -300px;
+    text-align: center;
+  }
+  .section .contentTitle h3 {
+    font-size: 20px;
+    color: #2c4871;
+    margin-bottom: 12.5px;
+  }
+  .section .contentTitle p {
+    font-size: 12px;
+    color: #999999;
+  }
+  .item-1 {
+    background-image: url('../img/01bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-1 .page01Logo {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 160px;
+    height: 50px;
+    display: flex;
+  }
+  .item-1 .page01Logo .logoImg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    flex: 2.5;
+    background-image: url('../img/logo2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Logo .logoTitle {
+    flex: 5;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  .item-1 .page01Logo .logoTitle p:first-child {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .item-1 .page01Logo .logoTitle p:last-child {
+    font-size: 14px;
+  }
+  .item-1 .page01Content {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .item-1 .page01Content .phoneImg {
+    float: left;
+    margin-top: 50%;
+  }
+  .item-1 .page01Content .phoneImg img {
+    z-index: 99;
+    width: 174px;
+    height: 347px;
+  }
+  .item-1 .page01Content .rightInfo {
+    float: left;
+    margin: 50% 0px 0px 10%;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner {
+    height: 50px;
+    margin-bottom: 40px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p {
+    color: #ffffff;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:first-child {
+    font-size: 26px;
+    font-weight: 550;
+    margin-bottom: 10px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:last-child {
+    font-size: 12px;
+  }
+  .item-1 .page01Content .rightImg {
+    margin-left: 120px;
+    float: left;
+    text-align: center;
+  }
+  .item-1 .page01Content .rightImg .iosImg {
+    width: 110px;
+    height: 110px;
+    z-index: 4;
+    margin-bottom: 11px;
+    background-image: url('../img/erweima.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Content .rightImg p {
+    font-size: 10px;
+    color: #fff;
+  }
+  .item-2 {
+    background-color: #ffffff;
+  }
+  .item-2 .centerContent {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-2 .centerContent .bottomInfo {
+    display: flex;
+    width: 82%;
+    position: absolute;
+    top: 38.2%;
+    left: 50%;
+    margin-left: -41%;
+  }
+  .item-2 .centerContent .bottomInfo .items {
+    flex: 1;
+    text-align: center;
+    z-index: 4;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 31px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg h4 {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 8.5px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg p {
+    font-size: 11px;
+    color: #999999;
+    margin-bottom: 8.5px;
+  }
+  .item-2 .centerContent .bottomInfo.current .item1 {
+    animation: 1s slideInUp ease;
+    -webkit-animation: 1s slideInUp ease;
+    -o-animation: 1s slideInUp ease;
+    -moz-animation: 1s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item2 {
+    animation: 2s slideInUp ease;
+    -webkit-animation: 2s slideInUp ease;
+    -o-animation: 2s slideInUp ease;
+    -moz-animation: 2s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item3 {
+    animation: 3s slideInUp ease;
+    -webkit-animation: 3s slideInUp ease;
+    -o-animation: 3s slideInUp ease;
+    -moz-animation: 3s slideInUp ease;
+  }
+  .item-3 {
+    background-image: url('../img/03bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-3 .contentTitle h3 {
+    color: #fff;
+  }
+  .item-3 .contentTitle p {
+    color: #fff;
+  }
+  .item-3 .myContent {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-3 .myContent .bottomImgs {
+    width: 600px;
+    height: 58%;
+    z-index: 4;
+    position: absolute;
+    top: 27.7%;
+    left: 50%;
+    margin-left: -300px;
+  }
+  .item-3 .myContent .bottomImgs img {
+    position: absolute;
+  }
+  .item-3 .myContent .bottomImgs .phone02 {
+    width: 157.3px;
+    height: 281.05px;
+    top: 22px;
+    left: 79.1px;
+    z-index: 1;
+  }
+  .item-3 .myContent .bottomImgs .phone03 {
+    width: 171.6px;
+    height: 305.25px;
+    position: absolute;
+    top: 8px;
+    left: 212.3px;
+    z-index: 2;
+  }
+  .item-3 .myContent .bottomImgs .phone04 {
+    width: 158.4px;
+    height: 282.7px;
+    position: absolute;
+    top: 22px;
+    right: 82px;
+    z-index: 1;
+  }
+  .item-4 {
+    background-color: #fff;
+  }
+  .item-4 .content04 {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-4 .content04 .imgs04 {
+    width: 100%;
+    z-index: 4;
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    margin-left: -300px;
+    text-align: center;
+  }
+  .item-4 .content04 .imgs04 img {
+    width: 302.5px;
+    height: 259.5px;
+  }
+  .item-5 {
+    background-color: #f8f8f8;
+  }
+  .item-5 .aboutBox {
+    width: 100%;
+    height: 73%;
+    background-image: url('../img/05bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .item-5 .aboutBox .aboutUs {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo {
+    position: absolute;
+    top: 23%;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo {
+    float: left;
+    margin-right: 31.5px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo img {
+    z-index: 4;
+    width: 237px;
+    height: 244px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo {
+    width: 287px;
+    height: 150px;
+    margin-top: 30px;
+    font-size: 18px;
+    float: left;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo .blackWord {
+    color: #666;
+  }
+  .item-5 .bottomStatement {
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    bottom: 0;
+    background-color: #282828;
+    text-align: center;
+    z-index: 4;
+  }
+  .item-5 .bottomStatement .stateWords {
+    width: 540px;
+    height: 100%;
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    margin-left: -270px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass {
+    margin-top: 18px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass span:first-child {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #fp-nav {
+    display: none;
+  }
+  .item-1 {
+    background-image: url('../img/01bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-1 .page01Logo {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 160px;
+    height: 50px;
+    display: flex;
+  }
+  .item-1 .page01Logo .logoImg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    flex: 2.5;
+    background-image: url('../img/logo2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Logo .logoTitle {
+    flex: 5;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  .item-1 .page01Logo .logoTitle p:first-child {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .item-1 .page01Logo .logoTitle p:last-child {
+    font-size: 14px;
+  }
+  .item-1 .page01Content {
+    width: 82%;
+    height: 60%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -41%;
+  }
+  .item-1 .page01Content .phoneImg {
+    display: none;
+    float: left;
+    margin-top: 40%;
+  }
+  .item-1 .page01Content .phoneImg img {
+    z-index: 99;
+    width: 174px;
+    height: 347px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner {
+    height: 50px;
+    margin-bottom: 40px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p {
+    color: #ffffff;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:first-child {
+    font-size: 22px;
+    font-weight: 550;
+    margin-bottom: 10px;
+  }
+  .item-1 .page01Content .rightInfo .rightBanner p:last-child {
+    font-size: 12px;
+  }
+  .item-1 .page01Content .rightImg {
+    margin-left: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .item-1 .page01Content .rightImg .iosImg {
+    width: 110px;
+    height: 110px;
+    z-index: 4;
+    margin-bottom: 11px;
+    background-image: url('../img/erweima.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .item-1 .page01Content .rightImg p {
+    font-size: 10px;
+    color: #fff;
+  }
+  .item-2 {
+    background-color: #ffffff;
+  }
+  .item-2 .centerContent {
+    width: 90.5%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-2 .centerContent .contentTitle {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -50%;
+    text-align: center;
+  }
+  .item-2 .centerContent .contentTitle h3 {
+    font-size: 20px;
+    color: #2c4871;
+    margin-bottom: 12.5px;
+  }
+  .item-2 .centerContent .contentTitle p {
+    font-size: 12px;
+    color: #999999;
+  }
+  .item-2 .centerContent .bottomInfo {
+    width: 100%;
+    position: absolute;
+    top: 30.2%;
+    left: 50%;
+    margin-left: -50%;
+  }
+  .item-2 .centerContent .bottomInfo .items {
+    text-align: center;
+    z-index: 4;
+    float: left;
+  }
+  .item-2 .centerContent .bottomInfo .items:first-child {
+    margin-left: 5%;
+  }
+  .item-2 .centerContent .bottomInfo .items:nth-child(2) {
+    float: right;
+    margin-right: 5%;
+  }
+  .item-2 .centerContent .bottomInfo .items:last-child {
+    margin-left: 27.5%;
+    margin-top: 5%;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 31px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg h4 {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 8.5px;
+  }
+  .item-2 .centerContent .bottomInfo .items .spriteImg p {
+    font-size: 11px;
+    color: #999999;
+    margin-bottom: 8.5px;
+  }
+  .item-2 .centerContent .bottomInfo.current .item1 {
+    animation: 1s slideInUp ease;
+    -webkit-animation: 1s slideInUp ease;
+    -o-animation: 1s slideInUp ease;
+    -moz-animation: 1s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item2 {
+    animation: 2s slideInUp ease;
+    -webkit-animation: 2s slideInUp ease;
+    -o-animation: 2s slideInUp ease;
+    -moz-animation: 2s slideInUp ease;
+  }
+  .item-2 .centerContent .bottomInfo.current .item3 {
+    animation: 3s slideInUp ease;
+    -webkit-animation: 3s slideInUp ease;
+    -o-animation: 3s slideInUp ease;
+    -moz-animation: 3s slideInUp ease;
+  }
+  .item-3 {
+    background-image: url('../img/03bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .item-3 .myContent {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-3 .myContent .contentTitle {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -50%;
+    text-align: center;
+  }
+  .item-3 .myContent .contentTitle h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 12.5px;
+  }
+  .item-3 .myContent .contentTitle p {
+    font-size: 12px;
+    color: #fff;
+  }
+  .item-3 .myContent .bottomImgs {
+    width: 100%;
+    height: 58%;
+    z-index: 4;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    margin-left: -50%;
+  }
+  .item-3 .myContent .bottomImgs img {
+    position: absolute;
+  }
+  .item-3 .myContent .bottomImgs .phone02 {
+    width: 37%;
+    height: 205.7px;
+    top: 22px;
+    left: 0px;
+    z-index: 1;
+  }
+  .item-3 .myContent .bottomImgs .phone03 {
+    width: 37%;
+    height: 215px;
+    position: absolute;
+    top: 18px;
+    left: 31.5%;
+    z-index: 2;
+  }
+  .item-3 .myContent .bottomImgs .phone04 {
+    width: 37%;
+    height: 205.7px;
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    z-index: 1;
+  }
+  .item-4 {
+    background-color: #fff;
+  }
+  .item-4 .content04 {
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-4 .content04 .contentTitle {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+  }
+  .item-4 .content04 .contentTitle h3 {
+    font-size: 20px;
+    color: #2c4871;
+    margin-bottom: 12.5px;
+  }
+  .item-4 .content04 .contentTitle p {
+    font-size: 12px;
+    color: #999999;
+  }
+  .item-4 .content04 .imgs04 {
+    z-index: 4;
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .item-4 .content04 .imgs04 img {
+    width: 302.5px;
+    height: 259.5px;
+  }
+  .item-5 {
+    background-color: #f8f8f8;
+  }
+  .item-5 .contentTitle {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+  }
+  .item-5 .contentTitle h3 {
+    font-size: 20px;
+    color: #2c4871;
+    margin-bottom: 12.5px;
+  }
+  .item-5 .contentTitle p {
+    font-size: 12px;
+    color: #999999;
+  }
+  .item-5 .aboutBox {
+    width: 100%;
+    height: 73%;
+    background-image: url('../img/05bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .item-5 .aboutBox .aboutUs {
+    width: 90.5%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo {
+    position: absolute;
+    top: 23%;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo {
+    float: left;
+    margin-right: 15px;
+    margin-top: 70px;
+    width: 30%;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .bottomLogo img {
+    z-index: 4;
+    width: 100%;
+    height: 101.75px;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo {
+    width: 64%;
+    height: 37%;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+    float: left;
+  }
+  .item-5 .aboutBox .aboutUs .ourInfo .yunInfo .blackWord {
+    color: #666;
+  }
+  .item-5 .bottomStatement {
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    bottom: 0;
+    background-color: #282828;
+    text-align: center;
+    z-index: 4;
+  }
+  .item-5 .bottomStatement .stateWords {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -150px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass {
+    margin-top: 18px;
+  }
+  .item-5 .bottomStatement .stateWords .emailAndDreass span:first-child {
+    margin-right: 20px;
+  }
+}
+@keyframes star-fall {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate3d(0, 0, 0);
+    -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+    -moz-transform: scale(0.5) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 0.8;
+    z-index: 3;
+    transform: translate3d(-200px, 200px, 0);
+    -webkit-transform: translate3d(-200px, 200px, 0);
+    -moz-transform: translate3d(-200px, 200px, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2) translate3d(-300px, 300px, 0);
+    -webkit-transform: scale(1.2) translate3d(-300px, 300px, 0);
+    -moz-transform: scale(1.2) translate3d(-300px, 300px, 0);
+  }
+}
+.section .bottomArrow {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  margin-left: -14px;
+  z-index: 10;
+  animation: 2s arrow infinite ease;
+  -webkit-animation: 2s arrow infinite ease;
+  -o-animation: 2s arrow infinite ease;
+  -moz-animation: 2s arrow infinite ease;
+}
+.section .bottomArrow img {
+  width: 28px;
+  height: 28px;
+}
+@keyframes arrow {
+  from {
+    bottom: 40px;
+    opacity: 0;
+  }
+  to {
+    bottom: 36px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes arrow {
+  from {
+    bottom: 40px;
+    opacity: 0;
+  }
+  to {
+    bottom: 36px;
+    opacity: 1;
+  }
+}
+@-o-keyframes arrow {
+  from {
+    bottom: 40px;
+    opacity: 0;
+  }
+  to {
+    bottom: 36px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes arrow {
+  from {
+    bottom: 40px;
+    opacity: 0;
+  }
+  to {
+    bottom: 36px;
+    opacity: 1;
+  }
+}

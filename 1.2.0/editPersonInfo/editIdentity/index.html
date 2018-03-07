@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.v120.css">
+    <link rel="SHORTCUT ICON" href="favicon.ico" />
+    <title>编辑身份</title>
+</head>
+<!-- <script src="https://cdn.ravenjs.com/3.21.0/raven.min.js" crossorigin="anonymous"></script>
+<script>
+    Raven.config('https://f35430a6b7df4064b1aabcfe0bf9e6ae@sentry.io/265570').install();
+</script> -->
+
+<body>
+    <div class="topDiv">
+        <div class="business">商业机构
+            <span></span>
+        </div>
+        <div class="noBusiness">非商业机构
+            <span></span>
+        </div>
+    </div>
+    <div class="main_NoBusiness">
+        <div class="inputBox">
+            <label>机构名称</label>
+            <div class="info userBox">
+                <input class="commerceName" type="text" placeholder="请输入机构名称">
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>担任职务</label>
+            <div class="info commerceTitleBox">
+                <div class="rightArr"></div>
+                <span class="commercePosition"></span>
+            </div>
+        </div>
+        <div class="stickyIdentity">
+            <span class="checking" id="commerceSelected">
+                <div id="comselect">
+                    <img src="../img/selected.png" alt="">
+                </div>
+            </span>
+            <span class="roundText">置顶该身份</span>
+            <span class="yellowRound">
+                <div class="yellowRoundRotate"></div>
+            </span>
+
+        </div>
+        <div class="subBtnBox">
+            <div class="promptDiv">
+                <img src="../img/prompText.png" alt="">
+            </div>
+            <button id="commerceSubmit" type="submit" class="submitBtn">保&nbsp;存</button>
+            <button id="commerceDelete" type="submit" class="deleteBtn">删&nbsp;除</button>
+        </div>
+
+    </div>
+    <div class="main_Business">
+        <div class="inputBox">
+            <label>企业名称</label>
+            <div class="info">
+                <input type="text" placeholder="请输入企业名称" class="companyName">
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>所处行业</label>
+            <div class="info professionBox">
+                <div class="rightArr"></div>
+                <span class="industries"></span>
+            </div>
+        </div>
+        <div class="inputBox mainbus">
+            <label>主营业务</label>
+            <div class="info mainBusinessBox">
+                <div class="busBox">
+                    <span class="businessBg">请选择</span>
+                </div>
+            </div>
+            <div class="rightArr"></div>
+        </div>
+        <div class="inputBox">
+            <label>资产规模</label>
+            <div class="info assetBox">
+                <div class="rightArr"></div>
+                <span class="assetNum"></span>
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>融资阶段</label>
+            <div class="info equityBox">
+                <div class="rightArr"></div>
+                <span class="equityStage"></span>
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>担任职务</label>
+            <div class="info positionBox">
+                <div class="rightArr"></div>
+                <span class="businessPosition"></span>
+            </div>
+        </div>
+        <div class="inputBox">
+            <label>企业简介</label>
+            <div class="info introBox">
+                <div class="rightArr"></div>
+                <span class="businessIntro"></span>
+            </div>
+        </div>
+        <div class="stickyIdentity">
+            <span class="checking" id="businessSelected">
+                <div id="busselect">
+                    <img src="../img/selected.png" alt="">
+                </div>
+            </span>
+            <span class="roundText">置顶该身份</span>
+            <span class="yellowRound">
+                <div class="yellowRoundRotate"></div>
+            </span>
+
+        </div>
+        <div class="subBtnBox">
+            <div class="promptDiv">
+                <img src="../img/prompText.png" alt="">
+            </div>
+            <button id="businessSubmit" type="submit" class="submitBtn">保&nbsp;存</button>
+            <button id="businessDelete" type="submit" class="deleteBtn">删&nbsp;除</button>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/rem.v120.js"></script>
+    <script src="../js/pubilc.v120.js"></script>
+    <script src="../js/base64.v120.js"></script>
+    <script src="./js/index.v120.js"></script>
+</body>
+
+</html>
